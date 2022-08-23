@@ -25,9 +25,15 @@ const DECIMALS = "18";
 const INITIAL_PRICE = "200000000000000000000";
 const developmentChains = ["hardhat", "localhost"];
 
+const FRONT_END_CONTRACTS_FILE =
+    "../nextjs-nft-marketplace/constants/networkMapping.json";
+
+const FRONT_END_ABI_LOCATION = "../nextjs-nft-marketplace/constants/";
 module.exports = {
     networkConfig,
     developmentChains,
     DECIMALS,
     INITIAL_PRICE,
+    FRONT_END_CONTRACTS_FILE,
+    FRONT_END_ABI_LOCATION,
 };
