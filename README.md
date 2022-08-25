@@ -18,6 +18,14 @@ cd hardhat-nft
 yarn
 ```
 
+# Key Features
+
+1. `listItem`: list NFTs on the marketplace
+2. `buyItem`: buy the NFTs
+3. `cancelItem`: cancel a listing
+4. `updateListing`: update price
+5. `withdrawProceeds`: withdraw payment for the bought NFTs
+
 # Deploy
 
 ## Deploy on hardhat network
@@ -57,9 +65,3 @@ yarn hardhat coverage
 # Verify on Etherscan
 
 Get the etherscan API key and put it in the _.env_ file. The token will be automatically verified by running the deployment scripts.
-
-1. `listItem`: list NFTs on the marketplace
-2. `buyItem`: buy the NFTs
-3. `cancelItem`: cancel a listing
-4. `updateListing`: update price
-5. `withdrawProceeds`: withdraw payment for the bought NFTs
