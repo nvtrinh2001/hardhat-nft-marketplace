@@ -19,7 +19,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
         process.env.ETHERSCAN_API
     ) {
         log("Verifying...");
-        await verify(basicNft.address, args);
+        await verify(nftMarketplace.address, args);
     }
     log("------------------------------------");
 };
